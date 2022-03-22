@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Lobster&family=Palette+Mosaic&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+
+        margin: 0px 0px;
+        padding: 0;
+        background-color: black;
+        color: aliceblue;
+
+    }
+
+    body::before {
+        background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+        content: "";
+        opacity: 0.3;
+        position: absolute;
+
+        width: 100%;
+        height: 200%;
+        z-index: -1;
+        
+    }
+
+
+    a:hover {
+
+        border: 2px solid cyan;
+        background-color: aliceblue;
+        color: blueviolet;
+
+
+    }
+
+
+
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 20px;
+        padding: 0%;
+        position: sticky;
+
+
+
+    }
+
+    header {
+        background-color:#fc7575;
+        position: sticky;
+        border-radius: 50px;
+        margin: 0px 10px;
+        padding: 10px;
+        height: 30px;
+
+    }
+
+
+    a {
+        display: flex;
+        flex-wrap: wrap;
+
+        color: white;
+        flex-direction: row;
+       
+        margin: -16px 38px;
+        padding: 3px;
+        text-decoration: none;
+        border-radius: 25px;
+        width: auto;
+        position: sticky;
+        font-family: 'Hubballi', cursive;
+
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+
+        font-family: 'Palette Mosaic', cursive;
+        font-size: 100px;
+    }
+
+   
+
+
+
+ 
+    .navbut{
+        background-color: #f1e787;
+        border: none;
+        border-radius: 25px;
+    }
+
+    #button1 {
+        position: absolute;
+        right: 100px;
+        top:-14px;
+        cursor: pointer;
+        margin: 0px 9px;
+
+    }
+    #button2 {
+        position: absolute;
+        right: 40px;
+        top:-14px;
+        cursor: pointer;
+
+    }
+
+    .navbut:hover{
+        color: black;
+        background-color: #f14d4d;
+ 
+    }
+    #para1{
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    width:600px;
+    }
+    #para2{
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    left: 650px;
+    width:300px;
+    }
+    #para3{
+    font-family: 'Hubballi', cursive;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    width:300px;
+    top: 600px;
+    }
+    #para4{
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    width:600px;
+    top:750px ;
+    font-size: 30px;
+    }
+</style>
+
+<body>
+    <header class="class1">
+        <ul>
+            <li id="but1"><a href="#">Home </a></li>
+            <li id="but2"><a href="ADFE">about me</a></li>
+            <li id="but3"><a href="http://www.google.com" target="_blank">know us on google</a></li>
+            <li id="but4"><a href="ADFE">contact us</a></li>
+            <button class="navbut" id="button1">login</button>
+            <button class="navbut" id="button2">signup</button>
+        </ul>
+    </header>
+    <h1>MY WEBSITE</h1>
+    <div>
+        <section>
+
+            <p class="para" id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim magni ea temporibus maiores, rerum
+                repellendus alias beatae officia deserunt inventore sint molestias? Nemo, asperiores nostrum. Quibusdam
+                mollitia itaque quo molestias corporis officia?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nemo, dolorum repudiandae eum libero iste dolorem. Suscipit perspiciatis deserunt corrupti aperiam
+                beatae eius tempora expedita a, temporibus accusamus libero sequi maxime Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Sapiente quia in reprehenderit possimus perferendis, quisquam minima nihil
+                nostrum voluptas provident consectetur quaerat eveniet quibusdam recusandae sit, sint neque similique
+                sed!</p>
+            <p class="para" id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque explicabo aspernatur,
+                illum voluptates nesciunt ut iste nam impedit sequi, quaerat, fuga in corrupti?</p>
+            <p class="para" id="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate blanditiis minus maxime illo
+                asperiores eum iure.</p>
+            <p class="para" id="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate blanditiis minus maxime illo
+                asperiores eum iure.</p>
+        </section>
+    </div>
+</body>
+
+</html>
